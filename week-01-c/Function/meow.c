@@ -1,17 +1,22 @@
 //print meow 3 times
 #include <stdio.h>
 
-void meow(void);
+void meow(int n);
 int main(void)
 {
-    int i;
-    for(i=1;i<=3;i++)
-    {
-        meow();
-    }
+    int n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+
+    meow(n);
 }
 
-void meow(void)
+void meow(int n)
 {
-    printf("Meow\n");
+    int i;
+    for(i=1;i<=n;i++)
+    {
+        printf("Meow\n");
+    }
+    
 }
