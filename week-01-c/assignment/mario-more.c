@@ -37,7 +37,7 @@ void PrintPyramid(int height)
         // space before left pyramid
         for (int k = height - i; k > 0; k--)
         {
-            printf("  ");
+            printf(" ");
         }
 
         // Left pyramid
@@ -48,7 +48,7 @@ void PrintPyramid(int height)
         }
 
         // gap between pyramid
-        printf(" ");
+        printf("  ");
 
         // Right Pyramid
         for (int j = 0; j < i; j++)
